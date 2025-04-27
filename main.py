@@ -28,7 +28,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger('cartographer')
 
-# Constants
+# Constants - Testing and Development
 SCRIPT_DIR = Path(os.path.dirname(os.path.abspath(__file__)))
 CAPTURE_DIR = SCRIPT_DIR / "captures"
 DEFAULT_STORAGE_DIR = SCRIPT_DIR / "data_storage"
